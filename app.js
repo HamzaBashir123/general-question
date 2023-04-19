@@ -86,6 +86,8 @@ questions.forEach(function (question) {
     // console.log(question);
 
     questions.forEach(function (item) {
+      // console.log(item)
+      console.log(question)
       if (item !== question) {
         item.classList.remove("show-text");
         
